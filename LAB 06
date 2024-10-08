@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mathemize By Hanzala Ali</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h2>O/A levels Math Solutions</h2>
+        <p>"Unlock the mysteries of maths with us! Our channel is dedicated to helping you master the subject and achieve your academic goals. With our engaging and informative videos, you'll be able to tackle even the toughest problems with ease. So come along for the ride and let's make maths your new favorite subject!"</p>
+
+        <!-- Inline CSS Example -->
+        <p style="color: blue; font-weight: bold;">Facebook : Mathemize</p>
+
+        <h3>What We Offer:</h3>
+        <ul>
+            <li>Live Classes</li>
+            <li>Pdf Notes</li>
+            <li>Recorded Lectures</li>
+            <li>Pastpaper Sessions</li>
+            <li>Query Sessions</li>
+        </ul>
+
+        <h3>"Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding."</h3>
+        <img src="https://www.google.com/imgres?q=picture%20related%20to%20maths&imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F59%2Fdb%2Fc4%2F59dbc49ffbb968ab44d31dd68a561c0d.jpg&imgrefurl=https%3A%2F%2Fin.pinterest.com%2Fpin%2Fmathematics-background-stock-photos-images-pictures--573364596290069294%2F&docid=n6aZLbf8VFbkIM&tbnid=zzEZEgbY0FQBrM&vet=12ahUKEwjGkunh8v2IAxXnSaQEHXTcGhUQM3oECFQQAA..i&w=1500&h=1512&hcb=2&ved=2ahUKEwjGkunh8v2IAxXnSaQEHXTcGhUQM3oECFQQAA" alt="" width="300" style="border: 2px solid black;">
+
+        <h3>Youtube Channel</h3>
+        <p>Here is a link to a great website: <a href="www.youtube.com/@mathemizebyhanzala" target="_blank">Click Here</a></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Web Page</p>
+    </footer>
+
+</body>
+</html>
